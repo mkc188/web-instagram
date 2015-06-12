@@ -1,0 +1,6 @@
+echo ">> Running deploy script <<"
+mkdir -p ${OPENSHIFT_DATA_DIR}data
+mkdir -p ${OPENSHIFT_DATA_DIR}tmp
+ln -s ${OPENSHIFT_DATA_DIR}data ${OPENSHIFT_REPO_DIR}data
+ln -s ${OPENSHIFT_DATA_DIR}tmp ${OPENSHIFT_REPO_DIR}tmp
+echo ">> Deploy script done <<"

@@ -1,0 +1,49 @@
+#pager-number {
+  padding: 20px 20px;
+}
+.inline {
+  display: inline;
+}
+#upload-text {
+  padding-right: 10px;
+  vertical-align: middle;
+}
+img {
+  padding: 4px;
+}
+.navbar-right {
+  padding-right: 15px;
+}
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+input[type=file], input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+.vertical-center {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
